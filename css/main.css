@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Playfair+Display');
+
+:root {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #efefef;
+
+}
+
+.wrapper {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+header {
+	margin-top: 0px;
+	/*border: 1px solid red;*/
+}
+
+h1 {
+	margin-top: 0px;
+	text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 3em;
+	background-color: #ff3b3f;
+	color: #fff;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 3em;
+}
+
+.form {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+p,
+label,
+h6 {
+	font-family: 'Playfair Display', serif;
+}
+p, 
+label {
+	font-size: 2em;
+}
+
+input[type="number"] {
+	height: 3em;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5em;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: center;
+}
+li {
+	height: 3em;
+	width: 3em;
+	background-color: #caebf2;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5em;
+	border-radius: 5%;
+	margin: 5px;
+	padding-top: 5%;
+	cursor: pointer;
+}
+li:hover {
+	border-bottom: 3px solid #ff3b3f;
+	color: white;
+}
+
+.output {
+	margin-top: 10px;
+}
+
+h2 > span {
+	background-color: #a9a9a9;
+	color: #fff;
+	text-shadow: 1px 1p 0 #000;
+}
+
+footer {
+	/*margin-top: 10%;*/
+	align-self: flex-end;
+}
